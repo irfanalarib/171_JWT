@@ -109,3 +109,11 @@ async function deleteKomik(req, res) {
         });
     }
 }
+
+module.exports = {
+    getAllKomik,
+    getKomikById,
+    createKomik,
+    updateKomik,
+    deleteKomik
+};
